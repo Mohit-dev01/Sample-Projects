@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  @media screen and (max-width : 1200px){
+    .nav-ul{
+        gap: 40px;
+    }
+    .test-card{
+      margin-top: 40px;
+    }
+    .footer-p1{
+      margin-bottom: 20px;
+      padding: 0;
+    }
+    .footer{
+      text-align: center;
+    }
+    .footer-h6{
+      margin-bottom: 20px;
+    }
+
+  }
+  @media screen and (max-width : 768px){
+    .form-h2{
+      padding: 80px 80px 60px 80px;
+    }
+    input:last-child{
+      margin-top: 30px;
+    }
+  }
